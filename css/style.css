@@ -1,0 +1,131 @@
+/*css sheet*/
+h1{
+	/*affects header (who am I)*/
+	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 900;
+	margin-left: 65px;
+	
+}
+div h1{
+	/*affects header(Sergio D. cisneros)*/
+	font-size: 22px
+
+}
+
+body li{
+	/*styles nav bar into a flexbox horizontally*/
+	display:inline-block;
+	padding: 0 1px 0 25px;
+	
+}
+body li a{
+	/*styles font color & type, gets rid of underline, moves and adjusts nav bar font*/
+	margin-left: 0px;
+	font-size: 16px;
+	text-decoration: none;
+	color:grey;
+	font-family: 'Work Sans', sans-serif;
+ 	font-weight: 300;
+
+	/*font-family:sans-serif;
+	font-weight: lighter;*/
+}
+body li a:hover{
+	/*adds hover effect on nav bar*/
+ 	color:black;
+	font-weight: normal;
+}
+div p{
+	/*styles para/content in index/about me*/
+	margin-left: 65px;
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color:grey;
+	font-size:15.5px;
+
+}
+div p a{
+	/*styles store link in the paragraph in index/aboutme*/
+	color:#ef7257;
+	text-decoration: none;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+}
+
+div p a:hover{
+	/*styles a hover for store link in index/about*/
+	color:#d65940;
+
+}
+/*aligns vid */
+.vid{
+	margin-left: 65px;
+	height:360px;
+	width:640px;
+}
+/*styles imgs in illustrations*/
+.imgil{
+	margin-left: 65px;
+	height: 65%;
+    width: 65%;
+}
+/*styles imgs in design */
+.imgd{
+	max-height: 100%;
+    max-width: 100%;
+}
+/*styles imgs in photo*/
+.fri{
+	max-width: 100%
+}
+/*creates flex box img grid*/
+.row {
+  display:flex;
+  flex:none;
+}
+/*adjusts the padding on img grid*/
+.column{
+	padding:0 3px;	
+}
+
+.line{
+	/*styles the horizontal line*/
+	width:90%;
+}
+/*adjust flex items(logos/links)*/
+.slogos {
+	max-height: 30px;
+	max-width: 30px;
+}
+/*creates flex box for social media anchor links*/
+.rowlz{
+	display: flex;
+  	justify-content: center;
+}
+a.current:link, a.current:visited {
+  color: black;
+}
+
+#logo {
+	/*styles/positions the logo img*/
+	height: 7%;
+    width: 7%;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+#port{
+	/*Styles/resizes the portait img in index/aboutme*/
+	height: 60%;
+    width: 60%;
+    margin-left: 65px;
+}
+#name{
+	/*styles 2nd h1(sergio d cisneros in index/aboutme*/
+	font-weight: normal;
+	margin-left: 65px;
+}
